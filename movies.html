@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUPHORIA|upcoming movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <a href="#" class="brand">EUPHORIA</a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="categories.html">Category</a>
+        <a href="movies.html" class="current">Movies</a>
+        <a href="upcoming.html">Upcoming</a>
+        <a href="contact_us.html">Contacts</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+
+
+
+     <script type="text/javascript">
+    //javascript for navigation bar effect on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    //javascript for responsive navigation sidebar menu
+    var menu = document.querySelector('.menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove('active');
+    });
+    </script>
+
+
+
+
+     <div class = "wrapper">
+        <div class = "container">
+            <div class = "title">
+                <h1>Movies Page</h1>
+            </div>
+
+             <div class = "movie">
+                <div class = "movie-container">
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/INCEPTION.jpg" alt = "venom">
+                            
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">INCEPTION</a>
+                            <p>2022</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/GERALD'S GAME.jpg" alt = "spiderman">
+                            
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">GERALD'S GAME</a>
+                            <p>2022</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/Genius.jpg" alt = "GENIUS">
+                           
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">GENIUS</a>
+                            <p>2021</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/ONE DAY.png" alt = "ONE DAY"> </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">ONE DAY</a>
+                            <p>2020</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/The Dig.png" alt = "THE DIG">
+                           </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">THE DIG</a>
+                            <p>2022</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/Incendies2.jpg" alt = "INCIDIES">
+                            
+                        </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">INCIDIES</a>
+                            <p>2021</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/YES DAY.png" alt = "YES DAY">
+                         </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">YES DAY</a>
+                            <p>2020</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/Zodiac.png" alt = "ZODIAC">
+                         </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">ZODIAC</a>
+                            <p>2020</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/Sightings2.jpg" alt = "SIGHTINGS">
+                    </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">SIGHTINGS</a>
+                            <p>2022</p>
+                        </div>
+                    </div>
+
+                    <div class = "movie-item">
+                        <div class = "movie-img">
+                            <img src = "images/fantasy2.jpg" alt = "hobbit">
+                            </div>
+                        <div class = "movie-content">
+                            <a href = "#" class = "movie-title">HOBBIT</a>
+                            <p></p>2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+  </html>
+
+  <footer>
+  <div class="social">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+     <li>
+      <a href="upcoming.html">Upcoming Movies</a>
+    </li>
+     <li>
+      <a href="feedback.html">Feedback</a>
+    </li>
+     <li>
+      <a href="contact_us.html">Contact Us</a>
+    </li>
+  </ul>
+  <p class="copyright">EUPHORIA @ 2022 </p>
+</footer>
+
